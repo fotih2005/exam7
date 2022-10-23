@@ -22,7 +22,6 @@ export default {
       (e) => e.role !== "admin" && e.role !== "teacher"
     );
     let teachers = users.filter((e) => e.role !== "admin" && e.role !== "user");
-    teachers.filter (e => e.special = courses.find(i => i.id == e.special))
     students.filter((e) => (e.group = groups.find((j) => e.groupId == j.id)));
     res.render("admin.ejs", { courses, teachers, groups, students });
   },

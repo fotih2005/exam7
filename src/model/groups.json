@@ -8,23 +8,23 @@
     },
     {
         "id": 2,
-        "name": "N34",
-        "courseId": 2,
+        "name": "N39",
+        "courseId": 1,
         "teacherId": 2,
-        "homework": "homework bor"
-    },
-    {
-        "id": 3,
-        "name": "N40",
-        "courseId": 2,
-        "teacherId": 2,
-        "homework": "intihon maketini tugatish"
+        "homework": "qanaqadr maket qp kelish"
     },
     {
         "id": 4,
         "name": "N44",
         "courseId": 5,
         "teacherId": 2,
+        "homework": ""
+    },
+    {
+        "id": 5,
+        "name": "3333",
+        "courseId": "3",
+        "teacherId": "7",
         "homework": ""
     }
 ]

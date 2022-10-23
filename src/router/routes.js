@@ -18,5 +18,7 @@ export default route
   .post("/addCourse", postController.ADD_COURSE)
   .post("/addTeacher", postController.ADD_TEACHER)
   .post("/addStudent", postController.ADD_STUDENT)
-  .delete("/deleteCourse/:id", deleteController.DELETE_COURSE)
+  .delete('/deleteStudent/:id', deleteController.DELETE_STUDENT)
+  .delete('/deleteGroup/:id', deleteController.DELETE_GROUP)
+  .delete('/deleteCourse/:id', deleteController.DELETE_COURSE)
   .get("/*", userController.GET);

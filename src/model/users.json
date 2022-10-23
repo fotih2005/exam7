@@ -4,15 +4,15 @@
         "name": "Eshmat",
         "password": "1234",
         "role": "admin",
-        "tel":"+998 33 313 13 13"
+        "tel": "+998 33 313 13 13"
     },
     {
         "id": 2,
         "name": "Toshmat",
         "password": "4321",
         "role": "teacher",
-        "special": 2,
-        "tel":"+998 33 313 13 13"
+        "special": "node js",
+        "tel": "+998 33 313 13 13"
     },
     {
         "id": 3,
@@ -47,11 +47,19 @@
         "groupId": 2
     },
     {
-        "id": 9,
-        "name": "Fotih",
-        "tel": "998935724535",
-        "groupId": "3",
-        "password": "fotih",
-        "role": "user"
+        "id": 7,
+        "name": "G'ishmat",
+        "tel": "9982121432",
+        "password": "5555",
+        "special": "SMM",
+        "role": "teacher"
+    },
+    {
+        "id": 8,
+        "name": "G'ishmat",
+        "tel": "9982121432",
+        "password": "5555",
+        "special": "SMM",
+        "role": "teacher"
     }
 ]

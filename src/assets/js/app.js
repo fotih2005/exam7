@@ -3,7 +3,8 @@ const groupsBtn = document.getElementById("groupsBtn");
 const coursesBtn = document.getElementById("coursesBtn");
 const studentsBtn = document.getElementById("studentsBtn");
 
-const delCourse = document.querySelectorAll('.delCourse')
+const deleteStudent = document.querySelectorAll(".deleteStudent");
+const delGroup = document.querySelectorAll(".delGroup");
 
 const students = document.getElementById("students");
 const teachers = document.getElementById("teachers");
@@ -42,17 +43,29 @@ studentsBtn.addEventListener("click", () => {
   groups.classList.add("d-none");
 });
 
-const deleteCourse = async (id) => {
-  let res = await fetch(`/deleteCourse/${id}`, {
-    method: 'DELETE'
-  })
-  let req = await res.json()
+const delStudent = async (id) => {
+  let res = await fetch(`/deleteStudent/${id}`, {
+    method: "DELETE",
+  });
+  let req = await res.json();
   console.log(await req);
-}
+};
+const deleteGroup = async (id) => {
+  let res = await fetch(`/deleteGroup/${id}`, {
+    method: "DELETE",
+  });
+  let req = await res.json();
+  console.log(await req);
+};
 
+deleteStudent.forEach((btn) => {
+  btn.addEventListener("click", (e) => {
+    delStudent(e.target.id);
+  });
+});
 
-delCourse.forEach(btn => {
-  btn.addEventListener('click', (e) => {
-    deleteCourse(e.target.id);
-  })
-})
+delGroup.forEach((btn) => {
+  btn.addEventListener("click", (e) => {
+    deleteGroup(e.target.id);
+  });
+});
