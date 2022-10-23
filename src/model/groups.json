@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "N36",
+        "courseId": 1,
+        "teacherId": 2,
+        "homework": "qanaqadr maket qp kelish"
+    },
+    {
+        "id": 2,
+        "name": "N34",
+        "courseId": 2,
+        "teacherId": 2,
+        "homework": "homework bor"
+    },
+    {
+        "id": 3,
+        "name": "N40",
+        "courseId": 2,
+        "teacherId": 2,
+        "homework": "intihon maketini tugatish"
+    },
+    {
+        "id": 4,
+        "name": "N44",
+        "courseId": 5,
+        "teacherId": 2,
+        "homework": ""
+    }
+]

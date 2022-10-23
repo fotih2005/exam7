@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Node js",
+        "description": "yaxshi kurs bosa kere",
+        "price": "700 000 so'm"
+    },
+    {
+        "id": 2,
+        "name": "SMM",
+        "description": "yaxshi kurs bosa kere",
+        "price": "700 000 so'm"
+    },
+    {
+        "id": 3,
+        "name": "Graphic desing",
+        "description": "yaxshi kurs bosa kere",
+        "price": "700 000 so'm"
+    },
+    {
+        "id": 4,
+        "name": "Frontend",
+        "description": "yaxshi kurs bosa kere",
+        "price": "700 000 so'm"
+    },
+    {
+        "id": 5,
+        "name": "Beckend",
+        "description": "O`qisa arziydigan kurs",
+        "price": "800 000 so'm"
+    }
+]

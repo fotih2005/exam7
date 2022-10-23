@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "name": "Eshmat",
+        "password": "1234",
+        "role": "admin",
+        "tel":"+998 33 313 13 13"
+    },
+    {
+        "id": 2,
+        "name": "Toshmat",
+        "password": "4321",
+        "role": "teacher",
+        "special": 2,
+        "tel":"+998 33 313 13 13"
+    },
+    {
+        "id": 3,
+        "name": "Hoshim",
+        "password": "1111",
+        "tel": "+998 90 793 12 32",
+        "role": "user",
+        "groupId": 1
+    },
+    {
+        "id": 4,
+        "name": "Hoshimjon",
+        "password": "1111",
+        "tel": "+998 33 343 23 32",
+        "role": "user",
+        "groupId": 1
+    },
+    {
+        "id": 5,
+        "name": "G'ani",
+        "password": "1111",
+        "tel": "+998 90 432 32 34",
+        "role": "user",
+        "groupId": 2
+    },
+    {
+        "id": 6,
+        "name": "Hoshim",
+        "password": "11111",
+        "tel": "+998 33 313 13 13",
+        "role": "user",
+        "groupId": 2
+    },
+    {
+        "id": 9,
+        "name": "Fotih",
+        "tel": "998935724535",
+        "groupId": "3",
+        "password": "fotih",
+        "role": "user"
+    }
+]
